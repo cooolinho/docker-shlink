@@ -1,0 +1,16 @@
+version: "3.3"
+services:
+    shlink_server:
+        image: shlinkio/shlink:stable
+        container_name: shlink_server
+        ports:
+            - "8080:8080"
+        environment:
+            - DEFAULT_DOMAIN=localhost:8080
+            - IS_HTTPS_ENABLED=false
+
+    shlink_web_client:
+        image: shlinkio/shlink-web-client
+        container_name: shlink_web_client
+        ports:
+            - "8081:80"
