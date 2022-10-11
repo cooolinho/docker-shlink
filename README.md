@@ -3,7 +3,7 @@
 ## Installation
 ### create .env
 ```
-GEOLITE_LICENSE_KEY=put_your_licence_key_here
+cp .env.example > .env 
 ```
 ### Run Docker
 ```bash
