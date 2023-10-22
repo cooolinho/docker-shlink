@@ -26,5 +26,3 @@ docker exec -it shlink_server shlink api-key:generate
 
 ## GeoLite Licence Key
 visit: https://www.maxmind.com/en/accounts/<your-account-id>/license-key
-
-
